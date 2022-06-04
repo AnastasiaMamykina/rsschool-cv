@@ -1,25 +1,25 @@
-# Nastassia Mamykina
+# ***Nastassia Mamykina***
 I am Anastasia Mamykina. I study at RS School. JS/Frontend course-development. Preparatory stage. My goal is to get the knowledge and skills to work and start working in this field.
 I have good interpersonal skills and I'm an excellent team worker.
-## Contact
+## ***Contact***
 * location: Minsk, Belarus
 * mobile: +375 44 710 11 96
 * email: nastenka5854382@mail.ru
 * discord nickname: Nastassia#6926
 * github: https://github.com/AnastasiaMamykina
-### Education
+### ***Education***
 * Smolyan State Agrarian College Faculty of Economics and Law
 * Belarusian State Agricultural Academy
 Faculty of Economics and Law
-#### Experience
+#### ***Experience***
 * JSC "Radish" - economist
 * JSC "Belagroprombank" - Specialist in active banking operations
 * MTS - customer service specialist 
 * A1 - customer service specialist 2 category
-##### Languages
+##### ***Languages***
 * Russian - native
 * English - A2 (Pre-Intermediate) EPAM English test result
-###### Code examples
+###### ***Code examples***
 ````javascript
 let killed = +prompt("How many killed?");
 switch (killed) {
