@@ -1,0 +1,17 @@
+            html {
+                font-size: 10px;
+                background-color: #009f8a;
+                font-family: 'Nuosu SIL', sans-serif;
+            }
+            
+            body {
+                font-family: 'Joan', sans-serif;
+                font-weight: 100;
+                <header class="header">;
+                <main class="main">;
+                <footer class="footer">;
+            }
+            
+            * {
+                box-sizing: border-box;
+            }
