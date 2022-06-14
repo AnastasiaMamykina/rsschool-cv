@@ -141,3 +141,50 @@
                                         display: flex;
                                         flex-wrap: wrap;
                                     }
+.education__list {
+                            grid-row: 1 / 2;
+                            position: relative;
+                            font-family: "Poppins", sans-serif;
+                            font-size: 20px;
+                            line-height: 2;
+                            font-weight: 300;
+                            padding-top: 10px;
+                        }
+                        
+                        .education a:hover {
+                            border-radius: 20px 60px;
+                            background-color: #0066FF;
+                        }
+                        
+                        .education a {
+                            color: rgba(255, 255, 0, 0.986);
+                        }
+                        
+                        .page-footer__contact-links {
+                            margin: 0;
+                            padding: 0;
+                            list-style-type: none;
+                            border: 2px solid #0066FF;
+                            border-radius: 20px 5px;
+                            text-align: center;
+                            background-color: rgba(255, 255, 0, 0.986);
+                        }
+                        
+                        .page-footer__contact-links a {
+                            color: rgb(14, 13, 13);
+                            padding: 5px 10px;
+                            text-decoration: none;
+                            font-weight: bold;
+                            display: inline-block;
+                            width: 100px;
+                        }
+                        
+                        .page-footer__contact-links a:hover {
+                            border-radius: 20px 5px;
+                            background-color: #0066FF;
+                        }
+                        
+                        .rsschool__img {
+                            width: 100px;
+                            height: 100%;
+                        }
