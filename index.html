@@ -13,12 +13,9 @@
 
 <body>
     <header class="header">
-        <div class="header__bg--left"></div>
-        <div class="header__bg--right"></div>
         <div class="container" title="Open menu">
-
         </div>
-        <nav class="page-header-nav">
+        <nav class="page-header">
             <ul class="site-navigation">
                 <li class="site-navigation__item"><a class="site-navigation__link" href="#skills">Skills</a></li>
                 <li class="site-navigation__item"><a class="site-navigation__link" href="#experience">Experience</a></li>
@@ -41,17 +38,15 @@
                 Hi, I&#39;m <span class="text-highlighted">Nastassia</span> 👋
             </h2>
             <h2 class="title about-me__job">Front-End Developer</h2>
-
-            <a class="btn btn--base" href="mailto:nastenka5854382@mail.ru">
+            <a class="btn" href="mailto:nastenka5854382@mail.ru">
                 <span>Email me</span>
-
                 </div>
 
-                <div class="about-me__description">
-                    <p class="description__item">I am a Junior Front End Developer - Beginner</p>
-                    <p class="description__item">I have a big family. I have a husband, a little daughter, a dog and a rabbit ;)</p>
-                    <p class="description__item">I have a sweet tooth and I like to watch funny comedies</p>
-                </div>
+                <ul class="about-me__description">
+                    <li class="description__item">I am a Junior Front End Developer - Beginner</li>
+                    <li class="description__item">I have a big family. I have a husband, a little daughter, a dog and a rabbit ;)</li>
+                    <li class="description__item">I have a sweet tooth and I like to watch funny comedies</li>
+                </ul>
         </section>
 
         <section class="skills container">
@@ -84,10 +79,8 @@
         <section class="languages container">
             <h2 id="lang" class="title">Languages</h2>
             <ul class="languages__list">
-                <li class="languages__title">English</li>
-                <li class="languages__level">Pre-Intermediate</li>
-                <li class="languages__title">Russian</li>
-                <li class="languages__level">Native</li>
+                <li class="languages__title">English - Pre-Intermediate</li>
+                <li class="languages__title">Russian - Native</li>
             </ul>
         </section>
 
@@ -131,7 +124,7 @@ switch (killed) {
     case 10:
         alert("You get 1000 poits ");
         break;
-        
+
     default:
         alert("You get points " + killed * 100);
 }

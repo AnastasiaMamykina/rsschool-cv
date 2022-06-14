@@ -1,81 +1,143 @@
-            body {
-                font-family: 'Roboto', sans-serif;
-                font-size: 17px;
-                font-weight: 200;
-                line-height: 0.8;
-                color: rgba(255, 255, 0, 0.986);
-                background-color: #0f0f10b5;
-            }
-            
-            h1 {
-                color: rgba(255, 255, 0, 0.986);
-                font-size: 24pt;
-                font-weight: normal;
-                position: relative;
-                font-family: "Poppins", sans-serif;
-            }
-            
-            h2 {
-                color: rgba(255, 255, 0, 0.986);
-                font-size: 24pt;
-                font-weight: normal;
-            }
-            
-            p {
-                text-align: justify;
-                /* Выравнивание по ширине */
-                margin-left: 60px;
-                /* Отступ слева в пикселах */
-                margin-right: 10px;
-                /* Отступ справа в пикселах */
-                padding-left: 10px;
-                /* Отступ от линии слева до текста  */
-                padding-bottom: 10px;
-                /* Отступ от линии снизу до текста  */
-            }
-            
-            img {
-                width: 300px;
-                border-radius: 70%;
-            }
-            
-            .languages__title {
-                grid-row: 1 / 2;
-                position: relative;
-                font-family: "Poppins", sans-serif;
-                font-size: 20px;
-                line-height: 2;
-                font-weight: 400;
-                padding-top: 20px;
-            }
-            
-            .skills__list {
-                grid-row: 1 / 2;
-                position: relative;
-                font-family: "Poppins", sans-serif;
-                font-size: 20px;
-                line-height: 2;
-                font-weight: 300;
-                padding-top: 10px;
-            }
-            
-            .experience__list {
-                grid-row: 1 / 2;
-                position: relative;
-                font-family: "Poppins", sans-serif;
-                font-size: 20px;
-                line-height: 2;
-                font-weight: 300;
-                padding-top: 10px;
-            }
-            
-            .code__list {
-                position: relative;
-                font-family: "Poppins", sans-serif;
-                font-weight: 600;
-                padding-top: 10px;
-            }
-            
-            li {
-                color: rgba(255, 255, 0, 0.986);
-            }
+                                    body {
+                                        font-family: 'Roboto', sans-serif;
+                                        font-size: 17px;
+                                        font-weight: 200;
+                                        line-height: 0.8;
+                                        color: rgba(255, 255, 0, 0.986);
+                                        background-color: #0f0f10b5;
+                                    }
+                                    
+                                    h1 {
+                                        color: rgba(255, 255, 0, 0.986);
+                                        font-size: 24pt;
+                                        font-weight: normal;
+                                        position: relative;
+                                        font-family: "Poppins", sans-serif;
+                                    }
+                                    
+                                    h2 {
+                                        color: rgba(255, 255, 0, 0.986);
+                                        font-size: 24pt;
+                                        font-weight: normal;
+                                    }
+                                    
+                                    p {
+                                        text-align: justify;
+                                        /* Выравнивание по ширине */
+                                        margin-left: 60px;
+                                        /* Отступ слева в пикселах */
+                                        margin-right: 10px;
+                                        /* Отступ справа в пикселах */
+                                        padding-left: 10px;
+                                        /* Отступ от линии слева до текста  */
+                                        padding-bottom: 10px;
+                                        /* Отступ от линии снизу до текста  */
+                                    }
+                                    
+                                    img {
+                                        width: 300px;
+                                        border-radius: 70%;
+                                    }
+                                    
+                                    .languages__title {
+                                        grid-row: 1 / 2;
+                                        position: relative;
+                                        font-family: "Poppins", sans-serif;
+                                        font-size: 20px;
+                                        line-height: 2;
+                                        font-weight: 400;
+                                        padding-top: 20px;
+                                    }
+                                    
+                                    .skills__list {
+                                        grid-row: 1 / 2;
+                                        position: relative;
+                                        font-family: "Poppins", sans-serif;
+                                        font-size: 20px;
+                                        line-height: 2;
+                                        font-weight: 300;
+                                        padding-top: 10px;
+                                    }
+                                    
+                                    .experience__list {
+                                        grid-row: 1 / 2;
+                                        position: relative;
+                                        font-family: "Poppins", sans-serif;
+                                        font-size: 20px;
+                                        line-height: 2;
+                                        font-weight: 300;
+                                        padding-top: 10px;
+                                    }
+                                    
+                                    .code__list {
+                                        position: relative;
+                                        font-family: "Poppins", sans-serif;
+                                        font-weight: 600;
+                                        padding-top: 10px;
+                                    }
+                                    
+                                    li {
+                                        color: rgba(255, 255, 0, 0.986);
+                                    }
+                                    
+                                    .site-navigation {
+                                        margin: 0;
+                                        padding: 0;
+                                        list-style-type: none;
+                                        border: 2px solid #0066FF;
+                                        border-radius: 20px 5px;
+                                        text-align: center;
+                                        background-color: rgba(255, 255, 0, 0.986);
+                                    }
+                                    
+                                    .site-navigation a {
+                                        color: #fff;
+                                        padding: 5px 10px;
+                                        text-decoration: none;
+                                        font-weight: bold;
+                                        display: inline-block;
+                                        width: 100px;
+                                    }
+                                    
+                                    .site-navigation a:hover {
+                                        border-radius: 20px 5px;
+                                        background-color: #0066FF;
+                                    }
+                                    
+                                    .about-me__description {
+                                        grid-row: 1 / 2;
+                                        position: relative;
+                                        font-family: "Poppins", sans-serif;
+                                        font-size: 20px;
+                                        line-height: 2;
+                                        font-weight: 300;
+                                        padding-top: 10px;
+                                    }
+                                    
+                                    .btn {
+                                        display: inline-block;
+                                        font-family: "Ubuntu", sans-serif;
+                                        font-weight: 500;
+                                        font-size: 20px;
+                                        color: var(--yellow);
+                                    }
+                                    
+                                    .main-class {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                    }
+                                    
+                                    .section {
+                                        width: 50%;
+                                    }
+                                    
+                                    @media (max-width: 768px) {
+                                        .section {
+                                            width: 100%;
+                                        }
+                                    }
+                                    
+                                    .container {
+                                        display: flex;
+                                        flex-wrap: wrap;
+                                    }
