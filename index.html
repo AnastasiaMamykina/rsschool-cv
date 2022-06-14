@@ -5,11 +5,161 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nastassia Mamykina - Junior Front-End Developer</title>
+    <title>Nastassia Mamykina-CV </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <header class="header">
+        <div class="header__bg--left"></div>
+        <div class="header__bg--right"></div>
+        <div class="container" title="Open menu">
 
+        </div>
+        <nav class="page-header-nav">
+            <ul class="site-navigation">
+                <li class="site-navigation__item"><a class="site-navigation__link" href="#skills">Skills</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link" href="#experience">Experience</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link" href="#lang">Languages</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link" href="#education">Education</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link" href="#code">Code Style</a></li>
+                <li class="site-navigation__item"><a class="site-navigation__link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main class="main">
+        <h1 class="visually-hidden">NASTASSIA MAMYKINA- Junior Front-End Developer </h1>
+        <section class="about-me container">
+            <div class="about-me__img-container">
+                <img class="about-me__img" src="./assets/photo.jpg" alt="Personal photo">
+            </div>
+            <h2 class="about-me__name typewriter" data-type='["Hi, I&#39;m Nastassia 👋", "I live in Minsk", "I&#39;m learning and Front-End] '>
+                Hi, I&#39;m <span class="text-highlighted">Nastassia</span> 👋
+            </h2>
+            <h2 class="title about-me__job">Front-End Developer</h2>
+
+            <a class="btn btn--base" href="mailto:nastenka5854382@mail.ru">
+                <span>Email me</span>
+
+                </div>
+
+                <div class="about-me__description">
+                    <p class="description__item">I am a Junior Front End Developer - Beginner</p>
+                    <p class="description__item">I have a big family. I have a husband, a little daughter, a dog and a rabbit ;)</p>
+                    <p class="description__item">I have a sweet tooth and I like to watch funny comedies</p>
+                </div>
+        </section>
+
+        <section class="skills container">
+            <h2 id="skills" class="title">Hard skills </h2>
+            <ul class="skills__list">
+                <li class="skills__item">HTML</li>
+                <li class="skills__item">CSS / BEM</li>
+                <li class="skills__item">JavaScript</li>
+                <li class="skills__item">Git</li>
+            </ul>
+        </section>
+
+        <section class="experience container">
+            <h2 id="experience" class="title">Experience</h2>
+            <ul class="experience__list">
+                <li class="experience__company">
+                    JSC "Radish" - Economist</li>
+                <li class="experience__company">
+                    JSC "Belagroprombank" - Specialist in active banking operations
+                </li>
+                <li class="experience__company">
+                    MTS - Customer service specialist
+                </li>
+                <li class="experience__company">
+                    A1 - Customer service specialist 2 category
+                </li>
+            </ul>
+        </section>
+
+        <section class="languages container">
+            <h2 id="lang" class="title">Languages</h2>
+            <ul class="languages__list">
+                <li class="languages__title">English</li>
+                <li class="languages__level">Pre-Intermediate</li>
+                <li class="languages__title">Russian</li>
+                <li class="languages__level">Native</li>
+            </ul>
+        </section>
+
+
+        <section class="education container">
+            <h2 id="education" class="title">Education and courses</h2>
+            <ul class="education__list">
+                <li class="education__company">
+                    <a href="https://rs.school/js/ "><span data-linktitle="Rolling Scopes School " aria-hidden="true "></span>
+                Rolling Scopes School
+                Javascript/Front-End Program
+              </a>
+                </li>
+                <li class="education__company">
+                    Belarusian State Agricultural Academy Faculty of Economics and Law
+                </li>
+            </ul>
+        </section>
+
+        <section class="code-examples container ">
+            <h2 id="code " class="title ">Code examples</h2>
+            <ul class="code_list">
+                <pre> 
+                    <code>
+let killed = +prompt("How many killed? ");
+
+switch (killed) {
+
+    case 1:
+        alert("You get 100 poits ");
+        break;
+
+    case 3:
+        alert("You get 400 poits ");
+        break;
+
+    case 5:
+        alert("You get 700 poits ");
+        break;
+
+    case 10:
+        alert("You get 1000 poits ");
+        break;
+        
+    default:
+        alert("You get points " + killed * 100);
+}
+                    </code>
+                </pre>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer ">
+        <div class="page-footer__inner ">
+            <div class="page-footer__copyright ">
+                <p>© 2022 by Nastassia Mamykina</p>
+            </div>
+            <ul class="page-footer__contact-links ">
+                <li class="contact-links__item "><a href="https://github.com/AnastasiaMamykina " class="contact-links__link " target="_blank ">Github</a></li>
+                <li class="contact-links__item "><a href="https://www.linkedin.com/in/nastassia-mamykina-097880182/ " class="contact-links__link " target="_blank ">Linkedin</a></li>
+                <li class="contact-links__item ">
+                    <a href="https://rs.school/js/ " class="contact-links__link " target="_blank ">
+                        <svg class="rsschool " width="80 " height="29 " viewBox="0 0 80 29 " fill="none " lns="http://www.w3.org/2000/svg ">
+            </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+    </div>
 </body>
 
 </html>
+© 2022 GitHub, Inc. Terms

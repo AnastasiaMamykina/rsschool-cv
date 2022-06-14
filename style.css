@@ -1,17 +1,81 @@
-            html {
-                font-size: 10px;
-                background-color: #009f8a;
-                font-family: 'Nuosu SIL', sans-serif;
-            }
-            
             body {
-                font-family: 'Joan', sans-serif;
-                font-weight: 100;
-                <header class="header">;
-                <main class="main">;
-                <footer class="footer">;
+                font-family: 'Roboto', sans-serif;
+                font-size: 17px;
+                font-weight: 200;
+                line-height: 0.8;
+                color: rgba(255, 255, 0, 0.986);
+                background-color: #0f0f10b5;
             }
             
-            * {
-                box-sizing: border-box;
+            h1 {
+                color: rgba(255, 255, 0, 0.986);
+                font-size: 24pt;
+                font-weight: normal;
+                position: relative;
+                font-family: "Poppins", sans-serif;
+            }
+            
+            h2 {
+                color: rgba(255, 255, 0, 0.986);
+                font-size: 24pt;
+                font-weight: normal;
+            }
+            
+            p {
+                text-align: justify;
+                /* Выравнивание по ширине */
+                margin-left: 60px;
+                /* Отступ слева в пикселах */
+                margin-right: 10px;
+                /* Отступ справа в пикселах */
+                padding-left: 10px;
+                /* Отступ от линии слева до текста  */
+                padding-bottom: 10px;
+                /* Отступ от линии снизу до текста  */
+            }
+            
+            img {
+                width: 300px;
+                border-radius: 70%;
+            }
+            
+            .languages__title {
+                grid-row: 1 / 2;
+                position: relative;
+                font-family: "Poppins", sans-serif;
+                font-size: 20px;
+                line-height: 2;
+                font-weight: 400;
+                padding-top: 20px;
+            }
+            
+            .skills__list {
+                grid-row: 1 / 2;
+                position: relative;
+                font-family: "Poppins", sans-serif;
+                font-size: 20px;
+                line-height: 2;
+                font-weight: 300;
+                padding-top: 10px;
+            }
+            
+            .experience__list {
+                grid-row: 1 / 2;
+                position: relative;
+                font-family: "Poppins", sans-serif;
+                font-size: 20px;
+                line-height: 2;
+                font-weight: 300;
+                padding-top: 10px;
+            }
+            
+            .code__list {
+                position: relative;
+                font-family: "Poppins", sans-serif;
+                font-weight: 600;
+                padding-top: 10px;
+            }
+            
+            li {
+                color: rgba(255, 255, 0, 0.986);
             }
